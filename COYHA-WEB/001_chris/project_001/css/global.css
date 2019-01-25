@@ -31,7 +31,7 @@ nav > .submenu ul:last-of-type li a{ color:white;}
 /*burger*/
 nav input[type='checkbox']{display:none;}
 nav input[type='checkbox']#chx_menu + .submenu{height:0; overflow:hidden; width:100vw; height:0; position: absolute; z-index: 9999; transition-duration: 0.75s;}
-nav input[type='checkbox']#chx_menu:checked + .submenu{display:block;width:100vw; height:900px;  background-color:rgb(0,0,0); }
+nav input[type='checkbox']#chx_menu:checked + .submenu{display:block;width:100vw; height:100vh;  background-color:rgb(0,0,0); }
 
 .fa-angle-double-down{transition-duration: 0.5s; }
 label:hover .fa-angle-double-down{transform: rotate(180deg); }
