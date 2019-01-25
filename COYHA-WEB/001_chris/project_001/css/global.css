@@ -1,6 +1,62 @@
-body {font-family: 'Karla', sans-serif;}
+body {font-family: 'Karla', sans-serif;  background-color:rgba(0,0,0,0.7);}
 a{text-decoration: none; color:black;}
+h2{font-size:4em; font-weight:700; text-transform:uppercase;}
+p{font-size:1.2em;}
 
+header:after {display: block; visibility: hidden; clear: both; content: '';}
+header{background-color:white;}
+header h1{display: block; margin-left:2%; float: left;}
+header h1 a {display: block;}
 header h1 img{width:120px; height:60px;}
-footer h2 {display: inline-block;}
-footer h2 img{width:170px; height:40px;}
+
+nav {position: relative;}
+nav > ul::after{display: block; visibility: hidden; clear: both; content: '';}
+nav > ul{margin-left:70%; width:250px; line-height:3.5; }
+nav > ul li{vertical-align: middle; float: left; margin-left: 10px;}
+nav > ul li:nth-child(2) {width: 20px; height:50px; background: url('../img/user-regular.png') no-repeat center center; background-size: 25px 16px;}
+nav > ul li:nth-child(2):hover  {background-image: url('../img/user-solid.png');}
+nav > ul li:last-child{width: 90px; height:20px}
+
+nav > .submenu:after{display:block; visibility: hidden; clear: both; content: ''}
+nav > .submenu ul{margin-left:15px; padding-top:20%; float: left;}
+nav > .submenu ul:first-of-type{margin-left:10%;}
+nav > .submenu ul:last-of-type{margin-left:10%;}
+nav > .submenu ul li{font-size:1.5rem; line-height: 2;}
+
+nav > .submenu ul:first-of-type:before, nav > .submenu ul:last-of-type:before{position: relative; color:gray; font-size:2.5rem; top:-2vw;}
+nav > .submenu ul:first-of-type:before{ content: 'topic -' ;}
+nav > .submenu ul:last-of-type:before{content: 'site -';}
+nav > .submenu ul:first-of-type li a{ color:yellow;}
+nav > .submenu ul:last-of-type li a{ color:white;}
+/*burger*/
+nav input[type='checkbox']{display:none;}
+nav input[type='checkbox']#chx_menu + .submenu{height:0; overflow:hidden; width:100vw; height:0; position: absolute; z-index: 9999; transition-duration: 0.75s;}
+nav input[type='checkbox']#chx_menu:checked + .submenu{display:block;width:100vw; height:900px;  background-color:rgb(0,0,0); }
+
+.fa-angle-double-down{transition-duration: 0.5s; }
+label:hover .fa-angle-double-down{transform: rotate(180deg); }
+/*burgerFin*/
+
+
+
+
+
+
+footer{padding:55px 0 55px 0; background-color:black;}
+footer h4{margin-bottom:15px; font-size:1.25rem;}
+footer h4,footer .footCont li a{color:white;}
+footer .footCov:after{display:block; visibility: hidden; clear: both; content:'';}
+footer .footCov{width:70%; min-width:1080px; margin:0 auto;}
+footer .footCov .footCont{float: left; margin-left: 6vw;}
+footer .footCov .footCont:first-child{margin-left:10px;}
+
+footer .footCov .footCont:nth-child(4) ul:after{display:none; visibility: hidden; clear: both; content:'';}
+footer .footCov .footCont:nth-child(4) ul li{float:left; margin-left:20px;}
+footer .footCov .footCont:nth-child(4) ul li:first-of-type{margin-left:0;}
+
+footer .footCov article{display: block; float: left; clear:both; width:100%; margin:0 auto; padding-top:30px;}
+footer .footCov article span{color:gray; line-height:3;  font-size:0.75rem;}
+footer .footCov article span:first-of-type{margin-left:40px;}
+footer .footCov article span:nth-of-type(2){margin-left:10px;}
+footer .footCov article span:last-of-type{margin-left:10px; }
+footer .footCov article h2 {display: block; float: left; margin-left:10px;}
