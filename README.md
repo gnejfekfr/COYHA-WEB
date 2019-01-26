@@ -1,4 +1,5 @@
 ## 들어가며
+> 코딩야학의 디스코드에서 주최되었으며, 멤버이지만 자유롭게 진행하시면 됩니다.
 > '코딩을 손에 익히자, 남의 코드를 많이 보자, 일단 만들어보자' 가 이 스터디의 가장 큰 취지입니다.  
 
 HTML 과 CSS 더불어 javascript를 사용할 수 있으신 분들은 본인의 역량을 발휘하여 페이지를 만들어 가려고 합니다. 가능하다면 **코드리뷰**와 **서로 도움 주고받기** 를 할 예정이며 할 수 있는 만큼 지치지 않고 재밌게 꾸준히 했으면 하는 바람에 만들었습니다.  
@@ -36,7 +37,7 @@ main root
 ## 2.참고 할 만한 사이트
 [Caniuse](https://caniuse.com/) // css가 보편적으로 사용되는지 알려주는 사이트   
 [W3CShcool](https://www.w3schools.com/) // 프로그래밍 언어의 전반적인 사용법을 알려주는 사이트   
-[CSS 작성 수칙](https://nuli.navercorp.com/data/convention/NHN_Coding_Conventions_for_Markup_Languages.pdf)//네이버 코딩 컨벤션  
+[CSS 작성 수칙](https://nuli.navercorp.com/data/convention/NHN_Coding_Conventions_for_Markup_Languages.pdf // 네이버코딩컨벤션  
 [W3C웹표준 검사](https://validator.w3.org/) // 웹표준 검사  
 [W3C CSS 검사](http://jigsaw.w3.org/css-validator/)  
 [Dirty MarkUp](https://www.10bestdesign.com/dirtymarkup/) // HTML 코드를 정돈해주는 온라인 도구   
@@ -68,7 +69,7 @@ main root
     - 주제: Global Natonal Geographic **mainPage Renewal** 글로벌 내셔널지오그래픽 메인페이지 리뉴얼
     - URL: [Natonal Geographic](https://www.nationalgeographic.com/)    
     - 시작일: 2019-01-24
-    - 종료일: 2019-01-31  
+    - 종료일: 2019-02-03  
     
     
 ## 나가며  
