@@ -1,7 +1,7 @@
 /*firstSection*/
 .expSec{position:relative; margin-bottom:77px; min-height:100vh; }
 
-.expSec video{position: fixed; left:0; top:0; width:100%; min-height:calc(100vh - 390px); background-attachment: fixed; z-index: -1; }
+.expSec video{position: fixed; left:0; top:0; width:100%; min-width:1080px; min-height:calc(100vh - 390px); background-attachment: fixed; z-index: -1; }
 
 .expSec .bgWrap{position: absolute; z-index: 3; width:100%; min-height:calc(100vh - 49px); top:0; background:linear-gradient(180deg, transparent 0%, #000 100%);}
 .expSec .bgWrap .bgWrap2{position: absolute; z-index: 3; width:100%; min-height:80vh; top:540px; background:linear-gradient(180deg, transparent 0%, #000 25%);}
