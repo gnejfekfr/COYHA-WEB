@@ -1,25 +1,95 @@
-.expSec{position:relative; min-height:100vh; }
+/*firstSection*/
+.expSec{position:relative; margin-bottom:77px; min-height:100vh; }
 
-.expSec video{position: fixed; left:0; top:0; width:100%; min-height:calc(100vh - 230px); background-attachment: fixed; z-index: -1; }
-
-
-.expSec section:after{display: block; visibility: hidden; clear: both; content:'';}
-.expSec section{position: relative; z-index: 10; width:1124px; min-height:100vh; margin:0 auto; padding-top:70px;}
- 
-.expSec section h2{color:white; text-align: center;}
-.expSec section p{color:white; text-align: center;}
-.expSec section > p{line-height: 5; margin-bottom:90px;}
-.expSec section > p:after{display:block; width:30px; height:1px; margin:0 auto;  background-color:#fc0; border:1px solid #fc0; content:''; }
-
-
-.expSec section .ltrStory,.expSec section .rtlStory{position: relative; float:left; z-index: 4;}
-
-.expSec section .ltrStory p:before{display:inline-block; width:25px; height: 14px; border-left:5px solid #fc0; content:'';}
-.expSec section .ltrStory p{margin-bottom:25px; font-size:1.4em; text-align:left; text-transform: uppercase;}
-.expSec section .ltrStory ul li a figure img{width:150px; height:150px;}
-
-
+.expSec video{position: fixed; left:0; top:0; width:100%; min-height:calc(100vh - 390px); background-attachment: fixed; z-index: -1; }
 
 .expSec .bgWrap{position: absolute; z-index: 3; width:100%; min-height:calc(100vh - 49px); top:0; background:linear-gradient(180deg, transparent 0%, #000 100%);}
 .expSec .bgWrap .bgWrap2{position: absolute; z-index: 3; width:100%; min-height:80vh; top:540px; background:linear-gradient(180deg, transparent 0%, #000 25%);}
+
+
+.expSec section{position: relative; z-index: 10; width:1124px; min-width:112px; min-height:100vh; margin:0 auto; padding-top:70px;}
+.expSec section .secCov:after{display: block; visibility: hidden; clear: both; content:'';}
+.expSec section .secCov{position: relative; z-index: 10; min-width:1080px; margin:0 auto;}
+
+.expSec section .secCov h2{color:white; text-align: center; }
+.expSec section .secCov p{color:white; text-align: center;}
+.expSec section .secCov > p{line-height: 5; margin-bottom:90px;}
+.expSec section .secCov > p:after{display:block; width:30px; height:1px; margin:0 auto;  background-color:#fc0; border:1px solid #fc0; content:''; }
+
+.expSec section .secCov .ltrStory,.expSec section .rtlStory{position: relative; float:left; z-index: 4;}
+
+.expSec section .secCov .ltrStory{margin-left:30px;}
+.expSec section .secCov .ltrStory p:before{display:inline-block; width:25px; height: 14px; border-left:5px solid #fc0; content:'';}
+.expSec section .secCov .ltrStory p{ margin-bottom:25px; font-size:1.4em; text-align:left; text-transform: uppercase;}
+
+.expSec section .secCov .ltrStory ul{ flex-direction: column;}
+.expSec section .secCov .ltrStory ul li{ margin-bottom: 28px; }
+.expSec section .secCov .ltrStory ul li:last-child a{ border-bottom:2px solid #fc0; color:white; transition-duration: 0.5s;}
+.expSec section .secCov .ltrStory ul li:last-child a:hover{background-color:#fc0; background-size: 0 50%;}
+.expSec section .secCov .ltrStory ul li a figure:after{display: block; visibility: hidden; clear: both; content:'';}
+
+.expSec section .secCov .ltrStory ul li a figure img{float: left;}
+.expSec section .secCov .ltrStory ul li a figure figcaption{width:170px; float: left; }
+
+.expSec section .secCov .ltrStory ul li a figure figcaption dl{margin-left:10px; color:white;}
+.expSec section .secCov .ltrStory ul li a figure figcaption dl dt{margin-bottom:10px; font-size:1.15rem; }
+.expSec section .secCov .ltrStory ul li a figure img{width:120px; height:120px;}
+
+.expSec section .secCov .rtlStory:after{display:block; visibility:hidden; clear:both; content:'';}
+.expSec section .secCov .rtlStory{position: relative; margin-left:50px;}
+.expSec section .secCov .rtlStory li{overflow: hidden;}
+.expSec section .secCov .rtlStory li a figure img{overflow: hidden; transition-duration:0.5s; }
+.expSec section .secCov .rtlStory li:hover a figure img{transform:scale(1.1);}
+.expSec section .secCov .rtlStory li:first-of-type{position:relative; margin-bottom:60px; width:660px; min-width:660px; height:550px;}
+.expSec section .secCov .rtlStory li:first-of-type a figure img{height:550px;}
+.expSec section .secCov .rtlStory li:first-of-type a figure figcaption{position: absolute; bottom:13px; left:10px; color:white;}
+.expSec section .secCov .rtlStory li:first-of-type a figure figcaption dl dt{font-size:1.7rem; margin-bottom:15px; text-transform: uppercase;}
+.expSec section .secCov .rtlStory li:first-of-type a figure figcaption dl dd:first-of-type{font-size:2.5rem; font-weight: 700;}
+.expSec section .secCov .rtlStory li:first-of-type a figure figcaption dl dd:last-of-type:before{content:'≡ ';}
+
+.expSec section .secCov .rtlStory li:not(:first-of-type){position:relative; float: left; width:310px; min-width:310px; height:350px; overflow: hidden; }
+.expSec section .secCov .rtlStory li:not(:first-of-type) a figure img{overflow: hidden; width:310px;  min-height:240px;}
+.expSec section .secCov .rtlStory li:not(:first-of-type) a figure figcaption{position:absolute; bottom:0px; background-color:white;}
+.expSec section .secCov .rtlStory li:not(:first-of-type) a figure figcaption:before{content:''; border:0; transition-duration: 0.5s;}
+.expSec section .secCov .rtlStory li:hover:not(:first-of-type) a figure figcaption:before{display:block; content:''; width:100%; border-top:5px solid #fc0;}
+.expSec section .secCov .rtlStory li:not(:first-of-type) a figure figcaption dl{padding:10px; color:black; }
+.expSec section .secCov .rtlStory li:not(:first-of-type) a figure figcaption dl dt{font-size:1.25rem;}
+.expSec section .secCov .rtlStory li:not(:first-of-type) a figure figcaption dl dd{padding-top:10px; font-size:1.3rem; font-weight: 700;}
+.expSec section .secCov .rtlStory li:not(:first-of-type) a figure figcaption dl dd:last-of-type:before{content:'≡ ';}
+.expSec section .secCov .rtlStory li:last-of-type{margin-left:40px;}
+/*firstSectionFin*/
+
+/*secondSection*/
+.watSec{position: relative; background-color:#f2f2f2;}
+.watSec .watCov{width:970px; margin:0 auto;}
+.watSec h2, .watSec .watCov > p{position: relative; z-index: 10; text-align: center;}
+.watSec h2{padding:90px 0 20px 0; }
+.watSec .watCov > p{margin-bottom: 50px; line-height: 4;}
+.watSec .watCov > p:after{display:block; margin:0 auto; width: 100px; border-bottom:3px solid #fc0; content:'';}
+
+.watSec .watCov article{margin:0 auto 75px auto; width:970px; min-width:970px;}
+.watSec .watCov article video{position:absolute; z-index:1; width:970px; min-width:970px; height:545px; min-height:545px;}
+.watSec .watCov article p{position: relative; z-index: 10; margin-bottom: 10px; padding-left:15px; color:white;}
+.watSec .watCov article p:not(:last-of-type){font-weight: 700;}
+.watSec .watCov article p:first-of-type{padding-top:300px; font-size:1.75rem; }
+.watSec .watCov article p:nth-of-type(2){font-size:2.75rem; }
+.watSec .watCov article p:last-of-type{margin-bottom:20px; width: 750px; font-size:1.05rem; line-height: 1.2;}
+.watSec .watCov article a{position:relative; z-index:10 ;display: block; overflow: hidden; margin-left:15px; padding:15px; width:270px;background-color:#fc0; font-weight:700; text-align: center; letter-spacing: 1px; color:black;}
+
+.watSec .watCov article a:after{display:block;  position:absolute; z-index: 5; top:0; left:-300px; width:300px;  height:45px; padding-top:15px;  background-color:white; transition-duration:0.5s; content:'watch eps 1 and 2 free now';}
+.watSec .watCov article a:hover{transition-duration: 0.5s; transition-timing-function: ease-in-out;}
+.watSec .watCov article a:hover:after{left:0;}
+
+.watSec .watCov h3{display:inline-block;  font-weight:700; font-size:1.7rem; text-transform: uppercase; letter-spacing: 1px;}
+.watSec .watCov > a{position:relative; float:right; overflow:hidden; border-bottom:2px solid #fc0; transition-duration: 0.5s; transition-timing-function: ease-in; font-weight: 700;}
+.watSec .watCov > a:hover{background-color:#fc0;}
+
+/*imageSlider*/
+.watSec .watCov .swiper-container{padding:35px 0 70px 0;}
+.watSec .watCov .swiper-container .swiper-wrapper .swiper-slide{display:flex; overflow:hidden; width:172px; height:258px; }
+.watSec .watCov .swiper-container .swiper-wrapper .swiper-slide:hover a img{transform: scale(1.1);}
+.watSec .watCov .swiper-container .swiper-wrapper .swiper-slide a{display: block; flex:1 ;width:100%; text-align: center; margin:auto;}
+.watSec .watCov .swiper-container .swiper-wrapper .swiper-slide a img{width:100%; height:258px; transition-duration: 0.5s;}
+/*imageSliderFin*/
+/*secondSectionFin*/
 
