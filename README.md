@@ -72,6 +72,11 @@ main root
     - 종료일: 2019-02-03  
     
     
+## 5. gitHub 사용 멤버  
+- [Looksh](https://github.com/Looksh)  
+- [BrokenStar](https://github.com/beteleuse06)   
+
+
 ## 나가며  
 일단 재미삼아 만든 스터디입니다.  
 ~~하지만 진지합니다. 이유는 개인적이므로 패스!!!~~  
