@@ -76,7 +76,7 @@ main root
     - 주제: Global Natonal Geographic **mainPage Renewal** 글로벌 내셔널지오그래픽 메인페이지 리뉴얼
     - URL: [Natonal Geographic](https://www.nationalgeographic.com/)    
     - 시작일: 2019-01-24
-    - 종료일: 2019-02-03  
+    - 종료일: -
     
     
 ## 5. gitHub 사용 멤버  
