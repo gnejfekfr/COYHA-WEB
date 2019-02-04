@@ -4,7 +4,7 @@
 .expSec video{position: fixed; left:0; top:0; width:100%; min-width:1080px; min-height:calc(100vh - 390px); background-attachment: fixed; z-index: -1; }
 
 .expSec .bgWrap{position: absolute; z-index: 3; width:100%; min-height:calc(100vh - 49px); top:0; background:linear-gradient(180deg, transparent 0%, #000 100%);}
-.expSec .bgWrap .bgWrap2{position: absolute; z-index: 3; width:100%; min-height:80vh; top:540px; background:linear-gradient(180deg, transparent 0%, #000 25%);}
+.expSec .bgWrap .bgWrap2{position: absolute; z-index: 3; width:100%; min-height:84vh; top:540px; background:linear-gradient(180deg, transparent 0%, #000 25%);}
 
 
 .expSec section{position: relative; z-index: 10; width:1124px; min-width:112px; min-height:100vh; margin:0 auto; padding-top:70px;}
@@ -93,3 +93,58 @@
 /*imageSliderFin*/
 /*secondSectionFin*/
 
+/*Travel Sec*/
+.travelSec{position: relative; z-index: 11; background:url('../img/travel2.jpg') no-repeat 0 0; background-size:cover;}
+.travelSec section{position: relative; top: 0; background-color:rgba(0,0,0,0.6);}
+.travelSec section > h2{padding:100px 0 30px 0;}
+.travelSec section > p{margin-bottom:40px; line-height: 4;}
+.travelSec section > p:after{position: relative; display:block; width:100px; height:3px; margin:0 auto; content:''; border-bottom:3px solid #fc0;}
+.travelSec section > h2,.travelSec section > p{position: relative; text-align: center; color:white;}
+
+.travelSec section .travelUpper:after{display: block; visibility: hidden; clear:both; content:'';}
+.travelSec section .travelUpper{max-width:800px; margin:0 auto 50px auto;}
+.travelSec section .travelUpper li{position: relative; z-index: 10; float:left;}
+.travelSec section .travelUpper li:first-of-type{margin-bottom:40px; min-width:800px; max-width:800px; min-height:450px; max-height:450px;}
+.travelSec section .travelUpper li:first-of-type a figure {height:450px;}
+.travelSec section .travelUpper li:nth-of-type(2),.travelSec section .travelUpper li:last-of-type{ min-width:385px; max-width: 385px; min-height:470px; max-height:470px;}
+.travelSec section .travelUpper li:last-of-type{margin-left:30px;}
+.travelSec section .travelUpper li a figure{background-color:rgba(0,0,0,0.9);  overflow: hidden; transition-duration: .5s;}
+.travelSec section .travelUpper li a figure:hover img{ transform: scale(1.05);}
+.travelSec section .travelUpper li a figure img{transition:0.5s ease-in-out; width:100%; height:100%;}
+
+.travelSec section .travelUpper li:nth-of-type(2) a figure,.travelSec section .travelUpper li:last-of-type a figure{height:470px;}
+
+.travelSec section .travelUpper li a figure figcaption{position: absolute; z-index: 11; color:white;}
+
+.travelSec section .travelUpper li:first-of-type a figure figcaption{ bottom:60px; margin-left:20px;}
+.travelSec section .travelUpper li:first-of-type a figure figcaption dl dt{font-size:20px; letter-spacing: 2px;}
+.travelSec section .travelUpper li:first-of-type a figure figcaption dl dd:first-of-type{margin-bottom:30px; font-size:36px;}
+.travelSec section .travelUpper li:first-of-type a figure figcaption dl dd:last-of-type{font-size:18px;}
+.travelSec section .travelUpper li:first-of-type a figure figcaption dl dd:last-of-type::before{content:'≡ ';}
+
+
+.travelSec section .travelUpper li:nth-of-type(2) a figure figcaption,.travelSec section .travelUpper li:last-of-type a figure figcaption{text-align:center; bottom: 45%;}
+.travelSec section .travelUpper li:nth-of-type(2) a figure figcaption dl ,.travelSec section .travelUpper li:last-of-type a figure figcaption dl{padding: 10px 20px;}
+.travelSec section .travelUpper li:nth-of-type(2) a figure figcaption dl dt ,.travelSec section .travelUpper li:last-of-type a figure figcaption dl dt{margin-bottom:10px;font-size:18px;}
+.travelSec section .travelUpper li:nth-of-type(2) a figure figcaption dl dd ,.travelSec section .travelUpper li:last-of-type a figure figcaption dl dd{font-size:24px; font-weight: 700;}
+
+.travelSec section .travelUpper li:nth-of-type(2) a+a,.travelSec section .travelUpper li:nth-of-type(3) a+a{position:relative; bottom:100px; left:30%; padding:15px 60px; background-color:#fc0; color:black; font-size:20px; font-weight: 700; text-transform: uppercase;}
+.travelSec section .travelUpper li:nth-of-type(2):hover a+a,.travelSec section .travelUpper li:last-of-type:hover a+a{transition-duration: .5s; background-color:white;}
+
+
+.travelSec section .travelBelow{max-width:800px; min-width:800px; margin:0 auto;}
+.travelSec section .travelBelow p{margin-bottom:40px; color:white; text-transform: uppercase; font-size:24px; font-weight:700;}
+.travelSec section .travelBelow p:before{display:inline-block; width:15px; height: 14px; border-left:5px solid #fc0; content:'';}
+
+.travelSec section .travelBelow ul{display:flex; margin-bottom:20px; flex-wrap:wrap;}
+.travelSec section .travelBelow ul li{width:370px; margin-bottom:20px;}
+.travelSec section .travelBelow ul li:nth-of-type(even){margin-left:30px;}
+.travelSec section .travelBelow ul li a figure:after{display:block; visibility: hidden; clear:both; content:'';}
+.travelSec section .travelBelow ul li a figure img{max-width:120px; min-width:120px; max-height:120px; min-height:120px;}
+.travelSec section .travelBelow ul li a figure{}
+.travelSec section .travelBelow ul li a figure figcaption{display:inline-block; margin-left:15px; padding-top:15px; vertical-align: top; width:170px; color:white;}
+
+.travelSec section .travelBelow ul li:last-of-type{display:block; margin:30px auto 20px auto; padding:7px 30px 0 30px; width:85px; line-height: 2; transition-duration: .5s; text-align: center;}
+.travelSec section .travelBelow ul li:last-of-type a{color:white;}
+.travelSec section .travelBelow ul li:last-of-type:hover{background-color:#fc0;}
+.travelSec section .travelBelow ul li:last-of-type:after{content:''; display:block; border-bottom:3px solid #fc0; width:100%;  height:3px; }
