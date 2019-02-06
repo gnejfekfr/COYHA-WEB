@@ -1,7 +1,8 @@
 # Release  
 - 2.0.19.01v : 실행 불가능한 부분 취소선 처리
 - 2.0.19.02v : 제출기한 폐지 및 프로젝트 진행 관련 추가
-- 2.0.19.03v : 일부 gitHub User 링크 추가  및 함께하는 분 추가
+- 2.0.19.03v : 일부 gitHub User 링크 추가  및 함께하는 분 추가  
+- 2.0.19.04v : 새로운 멤버 추가, 새로운 프로젝트 폴더 생성 및 파일 추가  
 
 
 ## 들어가며
@@ -77,7 +78,13 @@ main root
     - URL: [Natonal Geographic](https://www.nationalgeographic.com/)    
     - 시작일: 2019-01-24
     - 종료일: -
-    
+  
+2. Project_001_1:
+   - 주제: Tajam Web page make  
+   - URL[]()  
+   - 시작일: 2019-02-07  
+   - 종료일: -  
+
     
 ## 5. gitHub 사용 멤버  
 - [Looksh](https://github.com/Looksh)  
@@ -92,7 +99,10 @@ Chris, BrokenStar, Sunny, Looksh, 가자미, 후리미, 아옳, lovelyElla, Sung
 19.01.30
 박진현   
 
-총원: 12명
+19.02.07  
+왕회장  
+
+총원: 13명
 
 ## 나가며  
 일단 재미삼아 만든 스터디입니다.  
