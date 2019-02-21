@@ -14,7 +14,7 @@
 1. maxwidth는 960px 이다.  
 2. headerArea와 headerArea 안의 item들은 좌우,상,하 중앙정렬 시킨다.  
 3. headerArea와 imageArea의 간격은 20px, imageArea와 boardArea의 간격은 50px, boardArea와 footerArea의 간격은 30px이다.  
-4. boardArea의 좌우 간격은 20px이다.  
+4. boardArea의 간격은 20px이다.  
 
 
 p.s. 이미지는 아무거나 넣어주시면 됩니다.
