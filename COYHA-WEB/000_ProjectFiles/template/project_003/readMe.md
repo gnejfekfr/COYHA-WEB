@@ -5,7 +5,7 @@
 ## 문제  
 1. 메뉴에 마우스 오버시 0.75s 로 검은색에서 하얀색 글씨로 변경.  
 2. logoArea 와 headerArea 사이에 searchBox 와 button을 가운데에 위치 시키며, searchBox와 button은 가장 오른쪽에 배치.  
-3. imageArea는 mainSection으로 구분하고  이미지를 
+3. imageArea는 mainSection으로 구분하고  이미지를 넣는다.
 4. 게시판 목록에 time 태그를 사용하여 작성 연월일을 표기.  
 5. time 태그를 이용해 작성한 연월일을 css의 로 작은 글씨로 변경.  
 6. 웹접근성을 근거로 하여 작성하며, 시각장애인도 스크린리더로 들을때 각 탭의 유효성이 존재하여야 한다.  
