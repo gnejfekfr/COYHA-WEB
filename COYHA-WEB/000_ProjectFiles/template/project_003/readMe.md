@@ -16,4 +16,7 @@
 3. headerArea와 imageArea의 간격은 20px, imageArea와 boardArea의 간격은 50px, boardArea와 footerArea의 간격은 30px이다.  
 4. boardArea의 좌우 간격은 20px이다.  
 
+
+p.s. 이미지는 아무거나 넣어주시면 됩니다.
+
 __예제이미지는 Project_003의 project_003.png 입니다.__
