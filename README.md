@@ -85,11 +85,18 @@ main root
    - 시작일: 2019-02-07  
    - 종료일: -  
 
+3. Project_002:  
+   - 주제: layOut연습.html  
+   - URL[layOut연습](https://github.com/Christianpark/COYHA-WEB/tree/master/COYHA-WEB/000_ProjectFiles/template/project_003)  
+   - 내용: readMe.md를 읽고 해결해주세요.  
+   - 시작일: 2019-02-21  
+   - 종료일: -  
     
 ## 5. gitHub 사용 멤버  
 - [Looksh](https://github.com/Looksh)  
 - [BrokenStar](https://github.com/beteleuse06)   
-- [Sunny](https://github.com/sunny5820)
+- [Sunny](https://github.com/sunny5820)  
+- [Gangjun-Lee](https://github.com/loveLinux06)  
 
 
 ## 6. 함께하시는 분 (참여날짜)
